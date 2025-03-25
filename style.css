@@ -416,7 +416,8 @@ a
 
     .dates-section 
     {
-        background: url(./Images/Dates_Mobile.jpg) fixed no-repeat center;
+        position: relative;
+        background: url(./Images/Dates_Mobile.jpg) no-repeat center;
         background-size: cover;
     }
 
@@ -464,6 +465,7 @@ a
     .nav 
     {
         position: fixed;
+        z-index: 2;
         /* inset: 0; */
         width: 100%;
     }
