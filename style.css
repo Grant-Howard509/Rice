@@ -501,7 +501,7 @@ a
 
     .music-section 
     {
-        padding: 4rem;
+        padding: 3.5rem;
     }
 
     .single-art img 
@@ -513,6 +513,12 @@ a
     .single-desc h1
     {
         font-size: 2.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .single-desc p {
+        font-size: 1.3rem;
+        padding-bottom: 2rem;
     }
 
     .date-list 
