@@ -380,7 +380,8 @@ a
 {
     .hero-section 
     {
-        background: url(./Images/Ryan-RGL.jpeg) fixed no-repeat center;
+        position: relative;
+        background: url(./Images/Ryan-RGL.jpeg) no-repeat center;
         background-size: cover;
         height: 100%;
     }
@@ -489,11 +490,6 @@ a
 
     .mobile-logo a {
         position: fixed;
-    }
-
-    .hero-section 
-    {
-        height: 100%;
     }
 
     .hero-text 
