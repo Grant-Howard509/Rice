@@ -502,6 +502,7 @@ a
     .music-section 
     {
         padding: 3.5rem;
+        gap: 0;
     }
 
     .single-art img 
