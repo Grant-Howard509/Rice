@@ -517,8 +517,8 @@ a
     }
 
     .single-desc p {
-        font-size: 1.3rem;
-        padding-bottom: 2rem;
+        font-size: 1.32rem;
+        /* padding-bottom: 2rem; */
     }
 
     .date-list 
