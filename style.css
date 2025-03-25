@@ -120,6 +120,7 @@ ul
     align-items: center;
     position: fixed;
     margin-top: 2rem;
+    z-index: 2;
 }
 
 li 
