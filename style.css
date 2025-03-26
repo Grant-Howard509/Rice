@@ -29,11 +29,6 @@ nav
     color: black;
 }
 
-/* .music-color-white 
-{
-    color: white;
-} */
-
 .mobile-list 
 {
     position: fixed;
@@ -358,7 +353,16 @@ a
 
 .social-links 
 {
-    margin-top: 1rem;
+    display: flex;
+    margin-top: 1rem;   
+    align-items: center;
+    gap: 2rem;
+}
+
+.social-links img 
+{
+    max-width: 1.8rem;
+    height: 1.8rem;
 }
 
 /* Contact Section End */
@@ -464,21 +468,6 @@ a
     {
         display: none;      
     }
-
-    /* .nav-mobile 
-    {
-       display: block;
-    } */
-
-    /* #open-hamburger-button 
-    {
-        display: block;
-    }
-
-    #close-hamburger-button 
-    {
-        display: block;
-    } */
 
     .mobile-list 
     {
