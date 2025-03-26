@@ -59,6 +59,12 @@ const checkOverlap = () => {
         openBtnWhite.style.display = 'block';
         openBtnBlack.style.display = 'none';
     }
+
+    if (window.innerWidth > 750) 
+    {
+        openBtnWhite.style.display = 'none';
+        openBtnBlack.style.display = 'none';
+    }
 };
 
 window.addEventListener("scroll", checkOverlap);
